@@ -56,7 +56,7 @@ extension Enemy {
         
     }
     
-    func run(delta: TimeInterval) {
+    func run() {
         
     }
     

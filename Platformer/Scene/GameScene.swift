@@ -112,7 +112,7 @@ extension GameScene: SKPhysicsContactDelegate {
     }
 }
 
-// MARK: - Events
+// MARK: - Actions
 extension GameScene {
     func collect(fruit: Fruit) {
         

@@ -34,7 +34,7 @@ extension Player {
         
     }
     
-    func run(direction: Direction, delta: TimeInterval) {
+    func run(direction: Direction) {
         
     }
     

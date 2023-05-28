@@ -53,7 +53,7 @@ extension Fruit {
     }
 }
 
-// MARK: - Animate dObject
+// MARK: - Animated Object
 extension Fruit: AnimatedObject {
     func setupAnimations() {
         
