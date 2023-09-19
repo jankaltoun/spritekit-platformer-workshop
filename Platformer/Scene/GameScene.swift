@@ -87,6 +87,17 @@ extension GameScene {
     }
 }
 
+// MARK: - Music
+extension GameScene {
+    func startMusic() {
+        
+    }
+    
+    func stopMusic() {
+        
+    }
+}
+
 // MARK: - User input
 extension GameScene {
     override func keyDown(with event: NSEvent) {

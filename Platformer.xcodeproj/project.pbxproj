@@ -31,6 +31,8 @@
 		2F4860652A1E7A7300DEA35B /* PlayerJumpingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860642A1E7A7300DEA35B /* PlayerJumpingState.swift */; };
 		2F4860672A1E7A8E00DEA35B /* PlayerDeadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860662A1E7A8E00DEA35B /* PlayerDeadState.swift */; };
 		2F4860692A1FA62600DEA35B /* GameWonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860682A1FA62600DEA35B /* GameWonState.swift */; };
+		2F7B8CBB2AB9CA2B003D9DE2 /* gun-shot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F7B8CB92AB9CA2B003D9DE2 /* gun-shot.mp3 */; };
+		2F7B8CBC2AB9CA2B003D9DE2 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F7B8CBA2AB9CA2B003D9DE2 /* music.mp3 */; };
 		2F90348E2A113E5D0037EE57 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90348D2A113E5D0037EE57 /* Fruit.swift */; };
 		2F9034902A11447C0037EE57 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90348F2A11447C0037EE57 /* PhysicsCategory.swift */; };
 		2F9034922A1158870037EE57 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9034912A1158870037EE57 /* Enemy.swift */; };
@@ -66,6 +68,8 @@
 		2F4860642A1E7A7300DEA35B /* PlayerJumpingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerJumpingState.swift; sourceTree = "<group>"; };
 		2F4860662A1E7A8E00DEA35B /* PlayerDeadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDeadState.swift; sourceTree = "<group>"; };
 		2F4860682A1FA62600DEA35B /* GameWonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWonState.swift; sourceTree = "<group>"; };
+		2F7B8CB92AB9CA2B003D9DE2 /* gun-shot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gun-shot.mp3"; sourceTree = "<group>"; };
+		2F7B8CBA2AB9CA2B003D9DE2 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		2F90348D2A113E5D0037EE57 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		2F90348F2A11447C0037EE57 /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 		2F9034912A1158870037EE57 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 		2F48605E2A1E6B7300DEA35B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2F7B8CB82AB9CA01003D9DE2 /* Sounds */,
 				2F90349D2A12B0920037EE57 /* BulletImpactParticles.sks */,
 				2F1971762A091ED600E767AC /* World.sks */,
 				2F1971692A090FC100E767AC /* Assets.xcassets */,
@@ -201,6 +206,15 @@
 				2F48605A2A1D204F00DEA35B /* GameLabelNode.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		2F7B8CB82AB9CA01003D9DE2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2F7B8CB92AB9CA2B003D9DE2 /* gun-shot.mp3 */,
+				2F7B8CBA2AB9CA2B003D9DE2 /* music.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F90349F2A12B0920037EE57 /* BulletImpactParticles.sks in Resources */,
+				2F7B8CBB2AB9CA2B003D9DE2 /* gun-shot.mp3 in Resources */,
 				2F1971622A090FC000E767AC /* GameScene.sks in Resources */,
 				2F19716A2A090FC100E767AC /* Assets.xcassets in Resources */,
 				2F1971772A091ED600E767AC /* World.sks in Resources */,
+				2F7B8CBC2AB9CA2B003D9DE2 /* music.mp3 in Resources */,
 				2F19716D2A090FC100E767AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
